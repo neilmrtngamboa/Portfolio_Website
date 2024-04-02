@@ -1,0 +1,12 @@
+.links {
+    text-decoration: none;
+    color: rgb(101, 101, 101);
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.links:hover{
+    text-decoration: underline;
+    opacity: 2;
+    
+}
