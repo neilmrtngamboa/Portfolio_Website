@@ -1,5 +1,6 @@
 import './Styling/Home.css'
 import resume from '../CV/CV_NeilMartinGamboa.pdf'
+import img from '../Images/Portfolio_Img.png'
 
 function Home() {
 
@@ -20,7 +21,7 @@ function Home() {
         <div className="col-md-6">
 
           <div className="container">
-            <img src="./Images/Portfolio_Img.png" alt="mainImg" className='img-fluid ms-1'
+            <img src={img} alt="mainImg" className='img-fluid ms-1'
             />
           </div>
 
