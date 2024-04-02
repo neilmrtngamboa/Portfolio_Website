@@ -7,7 +7,10 @@ function About() {
     <>
       <h1 className="display-1 fw-bold ms-5 mt-2">About</h1>
       <div className="container">
-        <h4>Hi! I am a detail oriented developer who is passionate about creating and developing web applications.</h4>
+        <h4>A passionate front-end developer with a keen eye for detail and a love for crafting engaging user experiences. 
+          With a solid foundation in HTML, CSS, and JavaScript, 
+          I specialize in bringing designs to life while ensuring seamless functionality and optimal performance across various platforms and devices. I thrive in collaborative environments, where I can contribute my creativity and technical expertise to deliver innovative solutions that exceed expectations. 
+          Let's build something remarkable together!</h4>
 
         <div className="row mt-5">
           <div className="col-md-3">
