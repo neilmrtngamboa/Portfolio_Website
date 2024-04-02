@@ -18,7 +18,7 @@ function Home() {
         <div className="col-md-6">
 
           <div className="container">
-            <img src="src/Images/Portfolio_Img.png" alt="mainImg" className='img-fluid ms-1'
+            <img src="/Images/Portfolio_Img.png" alt="mainImg" className='img-fluid ms-1'
             />
           </div>
 
