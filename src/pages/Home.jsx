@@ -1,6 +1,8 @@
 import './Styling/Home.css'
+import resume from '../CV/CV_NeilMartinGamboa.pdf'
 
 function Home() {
+
 //Main
   return (
     <main className='mt-3 p-3'>
@@ -11,7 +13,7 @@ function Home() {
           <h1 className='display-1'>Neil Martin</h1>
           <h6 className='fs-3 text-secondary'>Your Frontend Developer</h6>
           <button className="mt-2 bn5">
-            <a href="src/CV/CV_NeilMartinGamboa.pdf" download id='CV'>Download CV</a>
+            <a href={resume} download='resume' id='CV'>Download CV</a>
           </button>
         </div>
 
