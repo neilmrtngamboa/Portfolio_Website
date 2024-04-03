@@ -80,7 +80,7 @@ function Home() {
                 <div className="card-body">
                   <h5 className="card-title text-center mt-1">Social Media Application</h5>
                   <p className='card-text'>A sample Social Media application wherein you can login, create an account and post!</p>
-                  <p><a className='Go' target='blank' href="https://project-5-social-media-application-five.vercel.app/login">Go</a></p>
+                  <p><a className='Go' target='blank' href="https://portfolio-website-rho-navy.vercel.app/">Go</a></p>
                 </div>
             </div>
 
