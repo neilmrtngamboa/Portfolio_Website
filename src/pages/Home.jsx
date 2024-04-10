@@ -47,7 +47,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="card shadow mt-3 mx-auto SampleProject text-white">
+            <div className="card shadow mt-3 mx-auto SampleProject text-white mb-2">
               <img src="https://archive.org/download/PokemonIcon/pokemon%20icon.png" className="card-img-top img-fluid mx-auto p-3 projectImg" alt="..." 
                 style={{width:'15rem', height:'15rem'}}
               />
