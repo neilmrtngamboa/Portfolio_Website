@@ -5,9 +5,9 @@ function About() {
 
   return (
     <>
-      <h1 className="display-1 fw-bold ms-5 mt-2">About</h1>
+      <h1 className="display-1 fw-bold ms-5 mt-2 text-light">About</h1>
       <div className="container">
-        <p className="intro fs-5">A passionate front-end developer with a keen eye for detail and a love for crafting engaging user experiences. 
+        <p className="intro fs-5 text-light">A passionate front-end developer with a keen eye for detail and a love for crafting engaging user experiences. 
           With a solid foundation in HTML, CSS, and JavaScript, 
           I specialize in bringing designs to life while ensuring seamless functionality and optimal performance across various platforms and devices. I thrive in collaborative environments, where I can contribute my creativity and technical expertise to deliver innovative solutions that exceed expectations. 
           <br /> <br />
@@ -16,7 +16,7 @@ function About() {
         <div className="row mt-5">
           <div className="col-md-3">
             <h3>Links</h3>
-            <div className="container bg-light p-3">
+            <div className="container bg-black rounded p-3">
 
               <ul>
                 <li className="fs-3">
@@ -33,9 +33,9 @@ function About() {
           </div>
 
           <div className="col-md-9">
-            <h3>Tech Stack</h3>
+            <h3 className="text-light">Tech Stack</h3>
 
-            <div className="container bg-light p-3">
+            <div className="container bg-dark shadow-lg p-3">
 
               <div className="row">
                 <div className="col-md-2">

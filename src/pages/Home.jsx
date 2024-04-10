@@ -11,7 +11,7 @@ function Home() {
 
         <div className="col-md-6 my-auto">
 
-          <h1 className='display-1'>Neil Martin</h1>
+          <h1 className='display-1 text-light'>Neil Martin</h1>
           <h6 className='fs-3 text-secondary'>Your Frontend Developer</h6>
           <button className="mt-2 bn5">
             <a href={resume} download='resume' id='CV'>Download CV</a>
@@ -29,8 +29,8 @@ function Home() {
 
       </div>
 
-      <section className='mt-5 p-5 bg-light'>
-        <h1 className='display-1'>Recent Projects</h1>
+      <section className='mt-5 p-5 bg-black rounded shadow'>
+        <h1 className='display-1 text-light fw-bold'>Recent Projects</h1>
 
         <div className="row">
 
