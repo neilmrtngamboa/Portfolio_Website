@@ -11,7 +11,8 @@ function Home() {
 
         <div className="col-md-6 my-auto">
 
-          <h1 className='display-1 text-light'>Neil Martin</h1>
+          <h3 className='text-light'>Hi! 👋🏼 I'm</h3>
+          <h1 className='display-1 fw-bold text-light'>Neil Martin</h1>
           <h6 className='fs-3 text-secondary'>Your Frontend Developer</h6>
           <button className="mt-2 bn5">
             <a href={resume} download='resume' id='CV'>Download CV</a>
