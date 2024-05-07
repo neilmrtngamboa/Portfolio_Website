@@ -5,6 +5,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
+
 function Home() {
 
   useEffect( () => {
@@ -51,7 +52,12 @@ function Home() {
               <div className="card-body">
                 <h5 className="card-title text-center">Employee Records</h5>
                 <p className='card-text'>Managing records where you can Create, Read, Update and Delete.</p>
-                <p><a className='Go' target='blank' href="https://project-4-employee-management-dashboard-sigma.vercel.app/">Go</a></p>
+                <button className='btn fw-bold btn-sm btn-light'>
+                  <a className='Go' target='blank' href="https://project-4-employee-management-dashboard-sigma.vercel.app/">
+                  
+                  Go
+                  </a>
+                </button>
               </div>
             </div>
 
@@ -62,7 +68,7 @@ function Home() {
               <div className="card-body">
                 <h5 className="card-title text-center mt-1">Pokemon Finder</h5>
                 <p className='card-text'>An API Driven Website where you can search for your favorite pokémon</p>
-                <p><a className='Go' target='blank' href="https://project-3-api-driven-website-2.vercel.app/">Go</a></p>
+                <button className='btn fw-bold btn-sm btn-light'><a className='Go' target='blank' href="https://project-3-api-driven-website-2.vercel.app/">Go</a></button>
               </div>
             </div>
 
@@ -77,7 +83,7 @@ function Home() {
                 <div className="card-body">
                   <h5 className="card-title text-center mt-1">Dice Game</h5>
                   <p className='card-text'>A JavaScript Game wherein you can battle a computer and whoever gets a higher number wins!</p>
-                  <p><a className='Go' target='blank' href="https://project-3-api-driven-website-2.vercel.app/">Go</a></p>
+                  <button className='btn fw-bold btn-sm btn-light'><a className='Go' target='blank' href="https://project-3-api-driven-website-2.vercel.app/">Go</a></button>
                 </div>
             </div>
 
@@ -88,7 +94,7 @@ function Home() {
                 <div className="card-body">
                   <h5 className="card-title text-center mt-1">Social Media Application</h5>
                   <p className='card-text'>A sample Social Media application wherein you can login, create an account and post!</p>
-                  <p><a className='Go' target='blank' href="https://portfolio-website-rho-navy.vercel.app/">Go</a></p>
+                  <button className='btn fw-bold btn-sm btn-light'><a className='Go' target='blank' href="https://project-5-social-media-application-indol.vercel.app/">Go</a></button>
                 </div>
             </div>
 
