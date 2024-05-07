@@ -1,15 +1,22 @@
 import './Styling/Home.css'
 import resume from '../CV/CV_NeilMartinGamboa.pdf'
 import img from '../Images/Portfolio_Img.png'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 function Home() {
+
+  useEffect( () => {
+    Aos.init();
+  }, [])
 
 //Main
   return (
     <main className='mt-3 p-3'>
       <div className="row">
 
-        <div className="col-md-6 my-auto">
+        <div className="col-md-6 my-auto" data-aos='fade-up' data-aos-duration='3000'>
 
           <h3 className='text-light'>Hi! 👋🏼 I'm</h3>
           <h1 className='display-1 fw-bold text-light'>Neil Martin Gamboa</h1>
@@ -19,7 +26,7 @@ function Home() {
           </button>
         </div>
 
-        <div className="col-md-6">
+        <div className="col-md-6" data-aos='zoom-in' data-aos-duration='3000'>
 
           <div className="container">
             <img src={img} alt="mainImg" className='img-fluid ms-1'
@@ -37,7 +44,7 @@ function Home() {
 
           <div className="col-md-6">
 
-            <div className="card shadow mx-auto SampleProject text-white">
+            <div className="card shadow mx-auto SampleProject text-white" data-aos='flip-up' data-aos-duration='1000'>
               <img src="https://cdn.iconscout.com/icon/free/png-256/free-employee-1714118-1459147.png?f=webp" className="card-img-top img-fluid mx-auto projectImg" alt="..."
                 style={{width:'15rem', height:'15rem'}}
               />
@@ -48,7 +55,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="card shadow mt-3 mx-auto SampleProject text-white mb-2">
+            <div className="card shadow mt-3 mx-auto SampleProject text-white mb-2" data-aos='flip-up' data-aos-duration='1000'>
               <img src="https://archive.org/download/PokemonIcon/pokemon%20icon.png" className="card-img-top img-fluid mx-auto p-3 projectImg" alt="..." 
                 style={{width:'15rem', height:'15rem'}}
               />
@@ -63,7 +70,7 @@ function Home() {
 
           <div className="col-md-6">
 
-            <div className="card shadow mx-auto SampleProject text-white">
+            <div className="card shadow mx-auto SampleProject text-white" data-aos='flip-up' data-aos-duration='1000'>
                 <img src="https://cdn-icons-png.flaticon.com/256/246/246569.png" className="card-img-top img-fluid mx-auto p-3 projectImg" alt="..." 
                   style={{width:'15rem', height:'15rem'}}
                 />
@@ -74,7 +81,7 @@ function Home() {
                 </div>
             </div>
 
-            <div className="card shadow mt-3 mx-auto SampleProject text-white">
+            <div className="card shadow mt-3 mx-auto SampleProject text-white" data-aos='flip-up' data-aos-duration='1000'>
                 <img src="https://cdn4.iconfinder.com/data/icons/podcast-11/64/29-Sport-512.png" className="card-img-top img-fluid mx-auto projectImg" alt="..."
                   style={{width:'15rem', height:'15rem'}}
                 />
