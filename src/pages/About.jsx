@@ -15,7 +15,7 @@ function About() {
       <h1 className="display-1 fw-bold ms-5 mt-2 text-light">About</h1>
       <div className="container">
         <p className="intro fs-5 text-light" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">A passionate front-end developer with a keen eye for detail and a love for crafting engaging user experiences. 
-          With a solid foundation in HTML, CSS, and JavaScript, 
+          With a solid foundation in HTML, CSS, JavaScript and ReactJS, 
           I specialize in bringing designs to life while ensuring seamless functionality and optimal performance across various platforms and devices. I thrive in collaborative environments, where I can contribute my creativity and technical expertise to deliver innovative solutions that exceed expectations. 
           <br /> <br />
           <b>Let's build something remarkable together!</b></p>

@@ -21,7 +21,7 @@ function Home() {
 
           <h3 className='text-light'>Hi! 👋🏼 I'm</h3>
           <h1 className='display-1 fw-bold text-light'>Neil Martin Gamboa</h1>
-          <h6 className='fs-4 text-secondary fw-light'>Your Frontend Developer</h6>
+          <h6 className='fs-5 text-secondary fw-light'>Front End Developer based in <b>Malabon City, NCR</b> 📍</h6>
           <button className="mt-3 bn5">
             <a href={resume} download='resume' id='CV'>Download CV</a>
           </button>
