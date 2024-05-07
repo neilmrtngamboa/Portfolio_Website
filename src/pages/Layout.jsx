@@ -4,21 +4,28 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 function Layout() {
 
     return (
-      <main className="d-flex flex-column min-vh-100">
-        <nav className="navbar navbar-expand-lg bg-dark p-3">
-            <div className="container-fluid">
-                <Link className="navbar-brand text-white" to='/'>Neil Martin Gamboa
-                    <div><h5 className="fs-6 text-secondary fw-light">Front End Developer</h5></div>
+      <main className="">
+
+        <nav class="flex items-center justify-between flex-wrap bg-stone-500 p-6">
+
+            <div class="flex items-center flex-shrink-0 text-white mr-6">
+                <Link className="no-underline" to='/'>Neil Martin Gamboa
+                    <div><h5 className="">Front End Developer</h5></div>
                 </Link>
-                <button className="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div className="navbar-nav mx-auto">
-                        <Link className="nav-link text-light" to='about'>About</Link>
-                        <Link className="nav-link text-light" to='contact'>Contact</Link>
-                    </div>
+            </div>
+
+            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+
+                <div class="text-sm lg:flex-grow">
+                <Link to='about' class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                    About
+                </Link>
+                <Link to='contact'  class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                    Contact
+                </Link>
+                
                 </div>
+                
             </div>
         </nav>
 
