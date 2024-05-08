@@ -1,6 +1,10 @@
 import './Styling/Home.css'
 import resume from '../CV/CV_NeilMartinGamboa.pdf'
 import img from '../Images/Portfolio_Img.png'
+import emd from '../Images/EMD.png'
+import jsgame from '../Images/JSGame.png'
+import pokemonFinder from '../Images/PokemonFinder.png'
+import socMedApp from '../Images/SocMedApp.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
@@ -46,8 +50,8 @@ function Home() {
           <div className="col-md-6">
 
             <div className="card shadow mx-auto SampleProject text-white" data-aos='flip-up' data-aos-duration='1000'>
-              <img src="https://cdn.iconscout.com/icon/free/png-256/free-employee-1714118-1459147.png?f=webp" className="card-img-top img-fluid mx-auto projectImg" alt="..."
-                style={{width:'15rem', height:'15rem'}}
+              <img src={emd} className="card-img-top img-fluid mx-auto projectImg" alt="EMD"
+                style={{width:'18rem', height:'18rem'}}
               />
               <div className="card-body">
                 <h5 className="card-title text-center">Employee Records</h5>
@@ -62,8 +66,8 @@ function Home() {
             </div>
 
             <div className="card shadow mt-3 mx-auto SampleProject text-white mb-2" data-aos='flip-up' data-aos-duration='1000'>
-              <img src="https://archive.org/download/PokemonIcon/pokemon%20icon.png" className="card-img-top img-fluid mx-auto p-3 projectImg" alt="..." 
-                style={{width:'15rem', height:'15rem'}}
+              <img src={pokemonFinder} className="card-img-top img-fluid mx-auto p-3 projectImg" alt="..." 
+                style={{width:'18rem', height:'18rem'}}
               />
               <div className="card-body">
                 <h5 className="card-title text-center mt-1">Pokemon Finder</h5>
@@ -77,8 +81,8 @@ function Home() {
           <div className="col-md-6">
 
             <div className="card shadow mx-auto SampleProject text-white" data-aos='flip-up' data-aos-duration='1000'>
-                <img src="https://cdn-icons-png.flaticon.com/256/246/246569.png" className="card-img-top img-fluid mx-auto p-3 projectImg" alt="..." 
-                  style={{width:'15rem', height:'15rem'}}
+                <img src={jsgame} className="card-img-top img-fluid mx-auto p-3 projectImg" alt="..." 
+                  style={{width:'18rem', height:'18rem'}}
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center mt-1">Dice Game</h5>
@@ -88,8 +92,8 @@ function Home() {
             </div>
 
             <div className="card shadow mt-3 mx-auto SampleProject text-white" data-aos='flip-up' data-aos-duration='1000'>
-                <img src="https://cdn4.iconfinder.com/data/icons/podcast-11/64/29-Sport-512.png" className="card-img-top img-fluid mx-auto projectImg" alt="..."
-                  style={{width:'15rem', height:'15rem'}}
+                <img src={socMedApp} className="card-img-top img-fluid mx-auto projectImg" alt="..."
+                  style={{width:'18rem', height:'18rem'}}
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center mt-1">Social Media Application</h5>
