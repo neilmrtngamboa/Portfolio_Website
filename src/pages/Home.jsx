@@ -83,7 +83,7 @@ function Home() {
                 <div className="card-body">
                   <h5 className="card-title text-center mt-1">Dice Game</h5>
                   <p className='card-text'>A JavaScript Game wherein you can battle a computer and whoever gets a higher number wins!</p>
-                  <button className='btn fw-bold btn-sm btn-light'><a className='Go' target='blank' href="https://project-3-api-driven-website-2.vercel.app/">Go</a></button>
+                  <button className='btn fw-bold btn-sm btn-light'><a className='Go' target='blank' href="https://project-2-java-script-game.vercel.app/">Go</a></button>
                 </div>
             </div>
 
