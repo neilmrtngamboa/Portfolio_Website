@@ -5,6 +5,7 @@ import emd from '../Images/EMD.png'
 import jsgame from '../Images/JSGame.png'
 import pokemonFinder from '../Images/PokemonFinder.png'
 import socMedApp from '../Images/SocMedApp.png'
+import DigiMart from '../Images/DigiMart.jpeg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
@@ -74,6 +75,17 @@ function Home() {
                 <p className='card-text'>An API Driven Website where you can search for your favorite pokémon</p>
                 <button className='btn fw-bold btn-sm btn-light'><a className='Go' target='blank' href="https://project-3-api-driven-website-2.vercel.app/">Go</a></button>
               </div>
+            </div>
+
+            <div className="card shadow mt-3 mx-auto SampleProject text-white" data-aos='flip-up' data-aos-duration='1000'>
+                <img src={DigiMart} className="card-img-top img-fluid mx-auto projectImg rounded" alt="..."
+                  style={{width:'15rem', height:'10rem', marginTop:'15px',}}
+                />
+                <div className="card-body">
+                  <h5 className="card-title text-center mt-1">DigiMart</h5>
+                  <p className='card-text'>A sample Digital Marketing website that offers different services to clients.</p>
+                  <button className='btn fw-bold btn-sm btn-light'><a className='Go' target='blank' href="https://digimart-chi.vercel.app/">Go</a></button>
+                </div>
             </div>
 
           </div>
