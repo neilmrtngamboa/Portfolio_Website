@@ -60,6 +60,89 @@
   transition: .5s;
 }
 
+.proj{
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#projContainer{
+  background-color: transparent;
+  transition: box-shadow 1s ease-out 50ms;
+}
+
+#projContainer:hover{
+  box-shadow: 7px 5px white;
+  text-shadow: 10px white;
+}
+
+.sampleWeb{
+  text-decoration: none;
+  transition: all 1s ease-out 50ms;
+}
+
+.sampleWeb:hover{
+  color: #fff;
+}
+
+#viewProj{
+  text-decoration: none;
+  color: white;
+  transition: all 1s ease-out 50ms;
+}
+
+#viewProj:hover{
+  background-color: white;
+  padding: 5px;
+  transition: 1s;
+  color: black;
+  border-radius: 5px;
+}
+
+#start{
+  letter-spacing: -5px;
+}
+
+#emailLink{
+  text-decoration: none;
+}
+
+#email{
+  color: white;
+  transition: color .7s ease-in-out 20ms
+}
+
+#email:hover{
+  color: black;
+}
+
+#socialsContainer1{
+  background-color: transparent;
+  border: none;
+  transition: .8s ease-out 50ms;
+}
+
+#socialsContainer1:hover{
+  background-color: rgb(68, 68, 68);
+}
+
+#socialsContainer2{
+  background-color: transparent;
+  border: none;
+  transition: .8s ease-out 50ms;
+}
+
+#socialsContainer2:hover{
+  background-color: rgb(78, 78, 78);
+}
+
+.socials{
+  text-decoration: none;
+  color: white;
+}
+
 .SampleProject{
 
     background-image: linear-gradient(to bottom right, rgb(43, 43, 43),rgb(156, 156, 156));
