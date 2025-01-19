@@ -142,36 +142,3 @@
   text-decoration: none;
   color: white;
 }
-
-.SampleProject{
-
-    background-image: linear-gradient(to bottom right, rgb(43, 43, 43),rgb(156, 156, 156));
-    
-    
-    & .projectImg{
-        scale: 1.0;
-        transition: 1s;
-    }
-
-}
-
-
-.SampleProject:hover{
-    
-    & .projectImg{
-        scale: 1.1;
-        transition: .7s;
-    }
-
-}
-
-
-.Go {
-  text-decoration: none;
-  color: black
-}
-
-.Go:hover{
-  color: rgb(234, 234, 234);
-  text-decoration: underline;
-}
