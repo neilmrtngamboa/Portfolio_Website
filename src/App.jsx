@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import Layout from './pages/Layout.jsx';
 import NotFound from './pages/Redirect.jsx';
+import AllProjects from './pages/AllProjects.jsx';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path='about' element={<About />} />
             <Route path='contact' element={<Contact />} />
+            <Route path='allprojects' element={<AllProjects />} />
             <Route path='*' element={<NotFound />} />
           </Route>
         </Routes>
