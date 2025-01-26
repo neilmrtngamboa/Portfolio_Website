@@ -59,9 +59,9 @@ function Home() {
 
       </div>
 
-      <section className='bg-black mt-5 p-5'> {/*About Me Section*/}
+      <section className='bg-black mt-5 p-5' id='abtMe'> {/*About Me Section*/}
         <h2 className='display-1 text-light fw-bold' id='abtMeHeader' data-aos="fade-right" data-aos-duration="2000">About Me</h2>
-        <p className='text-light mt-5 text-center fw-lighter lh-lg'>
+        <p className='text-light mt-5 text-center fw-lighter lh-lg' id='expTxt'>
           I am a dynamic professional skilled in Front-End Development, LMS Administration, and SEO. My focus is on crafting intuitive and visually engaging web interfaces, efficiently managing learning management systems to improve educational outcomes, and enhancing website performance for optimal search engine rankings. Driven by a passion for innovation and precision, I am dedicated to delivering meaningful solutions that cater
           to user needs and achieve measurable results.
         </p>
@@ -194,7 +194,7 @@ function Home() {
 
               <div className="col-md-6">
                 <a href="https://project-4-employee-management-dashboard-sigma.vercel.app/" target='blank' className='sampleWeb'>
-                  <div className="card bg-black text-light border" id='projContainer' style={{ width: '15rem', height: '7rem' }}>
+                  <div className="card bg-black text-light border" id='projContainer'>
                     <div className="card-body">
                       Employee Database
                       <p className='card-text fw-lighter'>A sample database wherein you can apply CRUD.</p>
@@ -207,7 +207,7 @@ function Home() {
               <div className="col-md-6">
 
                 <a href="https://project-5-social-media-application-indol.vercel.app/" target='blank' className='sampleWeb'>
-                  <div className="card text-light border" id='projContainer' style={{ width: '15rem', height: '7rem' }}>
+                  <div className="card text-light border" id='projContainer'>
                     <div className="card-body">
                       Social Media Application
                       <p className='card-text fw-lighter'>A sample social media application.</p>
@@ -238,7 +238,7 @@ function Home() {
 
       {/*Contact Section*/}
       <section>
-        <div className="row p-5">
+        <div className="row p-5" id='contactSec'>
           <div className="col-md-6 mx-auto my-auto"> {/*First Column of Contact Section*/}
             <p className='text-light fw-bold display-1' id='start' data-aos="fade-right"
               data-aos-offset="300"
@@ -254,8 +254,8 @@ function Home() {
             </a>
 
             <div className="row">
-              <div className="col-md-5">
-                <div className="card" id='socialsContainer1' style={{ width: '9.5rem', height: '4rem' }}>
+              <div className="col-md-6">
+                <div className="card" id='socialsContainer1'>
                   <a href="https://www.linkedin.com/in/neilmartingamboa/" className='socials' target="blank">
                     <div className="card-body">
                       <FontAwesomeIcon icon={faLinkedinIn} className='fs-1' />
@@ -265,8 +265,8 @@ function Home() {
                 </div>
               </div>
 
-              <div className="col-md-5">
-                <div className="card" id='socialsContainer2' style={{ width: '9.5rem', height: '4rem' }}>
+              <div className="col-md-6">
+                <div className="card" id='socialsContainer2'>
                   <a href="https://github.com/neilmrtngamboa" className='socials' target="blank">
                     <div className="card-body">
                       <FontAwesomeIcon icon={faGithub} className='fs-1' />

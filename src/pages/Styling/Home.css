@@ -1,3 +1,4 @@
+/* Start of Hero Section */
 #CV {
     text-decoration: none;
     color: white;
@@ -24,7 +25,9 @@
 #mainImg{
   filter: grayscale(90%);
 }
+/* End of Hero Section */
 
+/*Start of About Me Section */
 #abtMeHeader{
   letter-spacing: -5px;
 }
@@ -71,6 +74,8 @@
 #projContainer{
   background-color: transparent;
   transition: box-shadow 1s ease-out 50ms;
+  width: 15rem;
+  height: 7rem;
 }
 
 #projContainer:hover{
@@ -101,6 +106,43 @@
   border-radius: 5px;
 }
 
+@media only screen and (max-width:600px) {
+  #abtMeHeader{
+    font-size: 37px;
+  }
+
+  #expTxt{
+    font-size: smaller;
+  }
+
+  .tech{
+    font-size: 12px;
+  }
+
+  #projContainer{
+    width: 11rem;
+    font-size: small;
+  }
+
+  #abtMe{
+    padding: 15px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+
+  .tech{
+    font-size: 10px;
+  }
+
+  #projContainer{
+    width: 8rem;
+    font-size: x-small;
+  }
+}
+/*End of About Me Section */
+
+/*Start of Contact Section*/
 #start{
   letter-spacing: -5px;
 }
@@ -122,6 +164,8 @@
   background-color: transparent;
   border: none;
   transition: .8s ease-out 50ms;
+  width: 9.5rem;
+  height: 4rem;
 }
 
 #socialsContainer1:hover{
@@ -132,6 +176,8 @@
   background-color: transparent;
   border: none;
   transition: .8s ease-out 50ms;
+  width: 9.5rem;
+  height: 4rem;
 }
 
 #socialsContainer2:hover{
@@ -142,3 +188,18 @@
   text-decoration: none;
   color: white;
 }
+
+@media only screen and (min-width:320px) and (max-width:768px){
+
+  #contactSec{
+    padding: 10px;
+  }
+
+  #email{
+    font-size: 17.5px;
+    margin-top: 15px;
+  }
+
+}
+
+/*End of Contact Section*/
