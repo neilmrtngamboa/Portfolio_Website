@@ -1,5 +1,5 @@
 import './Styling/Home.css'
-import resume from '../CV/CV_NeilMartinGamboa.pdf'
+import resume from '../CV/Resume_NeilMartinGamboa.pdf'
 import img from '../Images/Portfolio_Img.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
