@@ -12,90 +12,182 @@ function About() {
 
   return (
     <>
-      <h1 className="display-1 fw-bold ms-5 mt-2 text-light">About</h1>
-      <div className="container">
-        <p className="intro fs-5 text-light" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">A passionate front-end developer with a keen eye for detail and a love for crafting engaging user experiences. 
-          With a solid foundation in HTML, CSS, JavaScript and ReactJS, 
-          I specialize in bringing designs to life while ensuring seamless functionality and optimal performance across various platforms and devices. I thrive in collaborative environments, where I can contribute my creativity and technical expertise to deliver innovative solutions that exceed expectations. 
-          <br /> <br />
-          <b>Let's build something remarkable together!</b></p>
+      <section className='bg-black mt-5 p-5' id='abtMe'> {/*About Me Section*/}
+        <h2 className='display-1 text-light fw-bold' id='abtMeHeader' data-aos="fade-right" data-aos-duration="2000">About Me</h2>
+        <p className='text-light mt-5 text-center fw-lighter lh-lg' id='expTxt'>
+          I am a dynamic professional skilled in Front-End Development, LMS Administration, and SEO. My focus is on crafting intuitive and visually engaging web interfaces, efficiently managing learning management systems to improve educational outcomes, and enhancing website performance for optimal search engine rankings. Driven by a passion for innovation and precision, I am dedicated to delivering meaningful solutions that cater
+          to user needs and achieve measurable results.
+        </p>
 
-        <div className="row mt-5">
-          <div className="col-md-3">
-            <h3>Links</h3>
-            <div className="container bg-black rounded p-3">
 
-              <ul>
-                <li className="fs-3">
-                  <Link to='https://www.linkedin.com/in/neilmartingamboa/' target="blank" className="links">LinkedIn</Link>
-                </li>
+        <div className="row">
 
-                <li className="fs-3 mt-3">
-                  <Link to='https://github.com/neilmrtngamboa' target="blank" className="links">GitHub</Link>
-                </li>
+          <div className="col-md-6">
 
-              </ul>
+            <h2 className='display-1 text-light fw-bold mt-5' id='abtMeHeader'>Experience</h2>
 
-            </div>
-          </div>
-
-          <div className="col-md-9">
-            <h3 className="text-light">Tech Stack</h3>
-
-            <div className="container bg-dark shadow-lg p-3" data-aos='zoom-in' data-aos-duration='3000'>
-
-              <div className="row">
-                <div className="col-md-2">
-                  <div className="card p-3">
-                    <img className="img-fluid p-1" src="https://static-00.iconduck.com/assets.00/react-icon-256x256-2yyldh38.png" alt="react"
-                      
-                    />
-                  </div>
+            <div className="container-fluid" data-aos="zoom-in" data-aos-duration="2000">
+              <div className="d-flex">
+                <div class="spinner-grow spinner-grow-sm text-light" role="status">
+                  <span class="visually-hidden my-auto">Loading...</span>
                 </div>
-
-                <div className="col-md-2">
-                  <div className="card p-3">
-                    <img className="img-fluid p-1" src="https://cdn.iconscout.com/icon/free/png-256/free-bootstrap-6-1175203.png?f=webp" alt="bootstrap"
-                    />
+                <p className='ms-3 text-light my-auto fw-lighter'>BS Information Technology <br />San Beda University
+                  <div className='mt-2'>
+                    <span id='yr'>2022</span>
                   </div>
-                </div>
 
-                <div className="col-md-2">
-                  <div className="card p-3">
-                    <img className="img-fluid p-1" src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/events/Tailwind_CSS_Logo.svg_GkNDLAs.png" alt="tailwind"
-                    />
+                </p>
+
+              </div>
+
+              <div className="d-flex mt-4">
+                <div class="spinner-grow spinner-grow-sm text-light" role="status">
+                  <span class="visually-hidden my-auto">Loading...</span>
+                </div>
+                <p className='ms-3 text-light my-auto fw-lighter'>Instructional Technologist <br />Mapua University
+                  <div className='mt-2'>
+                    <span id='yr'>2023</span>
                   </div>
+
+                </p>
+
+              </div>
+
+              <div className="d-flex mt-4">
+                <div class="spinner-grow spinner-grow-sm text-light" role="status">
+                  <span class="visually-hidden my-auto">Loading...</span>
                 </div>
-
-                <div className="col-md-2">
-                  <div className="card p-3">
-                    <img className="img-fluid p-1" src="https://mlsb5edd0ks1.i.optimole.com/cb:q7B0.63723/w:502/h:518/q:mauto/f:best/https://keytotech.com/wp-content/uploads/2019/05/firebase.png" alt="firebase"
-
-                    />
+                <p className='ms-3 text-light my-auto fw-lighter'>SEO Analyst <br />Brand That Name (Digital Marking Agency)
+                  <div className='mt-2'>
+                    <span id='yr'>2024</span>
                   </div>
-                </div>
 
-                <div className="col-md-2">
-                  <div className="card p-3">
-                    <img className="img-fluid p-1" src="https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=804&h=804&q=75&fit=max&auto=format" alt="figma"
-                    />
-                  </div>
-                </div>
+                </p>
 
-                <div className="col-md-2">
-                  <div className="card p-3">
-                    <img className="img-fluid p-1" src="https://www.coffeeclass.io/logos/chakra-ui.png" alt="chakra"
-                    />
-                  </div>
+              </div>
+
+              <div className="d-flex mt-4">
+                <div class="spinner-grow spinner-grow-sm text-light" role="status">
+                  <span class="visually-hidden my-auto">Loading...</span>
                 </div>
+                <p className='ms-3 text-light my-auto fw-lighter'>SEO Specialist <br />GrowDigi (Digital Marking Agency)
+                  <div className='mt-2'>
+                    <span id='yr'>2024</span>
+                  </div>
+
+                </p>
 
               </div>
 
 
             </div>
           </div>
+
+          <div className="col-md-6">
+            <h2 className='display-1 text-light fw-bold mt-5' id='abtMeHeader'>Tech Stack</h2>
+
+            <div class="container-fluid text-center" data-aos="zoom-in-left" data-aos-duration='1000'>
+              <div class="row justify-content-around">
+                <span class="col-md-4 tech">
+                  HTML
+                </span>
+                <span class="col-md-4 tech">
+                  CSS
+                </span>
+                <span class="col-md-4 tech">
+                  JavaScript
+                </span>
+              </div>
+            </div>
+
+            <div class="container-fluid text-center mt-3" data-aos="zoom-in-left" data-aos-duration='1000'>
+              <div class="row justify-content-around">
+                <span class="col-md-4 tech">
+                  Bootstrap
+                </span>
+                <span class="col-md-4 tech">
+                  TailwindCSS
+                </span>
+                <span class="col-md-4 tech">
+                  ReactJS
+                </span>
+              </div>
+            </div>
+
+            <div class="container-fluid text-center mt-3" data-aos="zoom-in-left" data-aos-duration='1000'>
+              <div class="row justify-content-around">
+                <span class="col-md-4 tech">
+                  Figma
+                </span>
+                <span class="col-md-4 tech">
+                  Postman
+                </span>
+                <span class="col-md-4 tech">
+                  Firebase
+                </span>
+              </div>
+            </div>
+
+            <div class="container-fluid text-center mt-3" data-aos="zoom-in-left" data-aos-duration='1000'>
+              <div class="row justify-content-around">
+                <span class="col-md-4 tech">
+                  MySQL
+                </span>
+                <span class="col-md-4 tech">
+                  Ahrefs
+                </span>
+                <span class="col-md-4 tech">
+                  SemRush
+                </span>
+              </div>
+            </div>
+
+            <h3 className='display-1 text-light fw-bold mt-5' id='abtMeHeader'>Recent Projects</h3>
+            <div className="row mt-2">
+
+              <div className="col-md-6">
+                <a href="https://project-4-employee-management-dashboard-sigma.vercel.app/" target='blank' className='sampleWeb'>
+                  <div className="card bg-black text-light border" id='projContainer'>
+                    <div className="card-body">
+                      Employee Database
+                      <p className='card-text fw-lighter'>A sample database wherein you can apply CRUD.</p>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+
+              <div className="col-md-6">
+
+                <a href="https://project-5-social-media-application-indol.vercel.app/" target='blank' className='sampleWeb'>
+                  <div className="card text-light border" id='projContainer'>
+                    <div className="card-body">
+                      Social Media Application
+                      <p className='card-text fw-lighter'>A sample social media application.</p>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+              <span className='mt-3'>
+                <Link to='allprojects' id='viewProj' style={{ fontFamily: 'Courier' }}>
+                  View all
+                  <svg xmlns="http://www.w3.org/2000/svg" className='ms-2 mx-auto my-auto' width="16" height="16" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5" />
+                  </svg>
+                </Link>
+              </span>
+
+            </div>
+
+
+
+
+
+          </div>
         </div>
-      </div>
+
+      </section> {/*End of About Me Section*/}
     </>
 
   )
