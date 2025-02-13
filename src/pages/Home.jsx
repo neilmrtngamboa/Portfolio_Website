@@ -4,6 +4,9 @@ import img from '../Images/Portfolio_Img.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
+import About from './About'
+import Contact from './Contact'
+
 
 
 function Home() {
@@ -55,8 +58,12 @@ function Home() {
         </div>
 
       </div>
+      <About />
+      <Contact/>
 
     </main>
+
+    
   )
 }
 

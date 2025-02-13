@@ -20,16 +20,6 @@ function Layout() {
             <Outlet />
         </div>
 
-        <footer className="bg-dark text-center text-light p-3 mt-auto">
-                <h5 className="fw-bold">Neil Martin Gamboa</h5>
-                <div className="fs-3">
-                    <a href="https://github.com/neilmrtngamboa" target="blank" className="icons"><FontAwesomeIcon icon={faGithub} /></a>
-                    <a href="https://www.linkedin.com/in/neilmartingamboa/" target="blank" className="icons"><FontAwesomeIcon icon={faLinkedin} className="ms-3" /></a>
-                    
-                </div>
-                
-
-        </footer>
       </main>
       
     )

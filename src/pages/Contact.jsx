@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Aos from 'aos'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
