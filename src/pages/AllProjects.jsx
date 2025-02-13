@@ -59,16 +59,27 @@ function AllProjects() {
         </div>
 
         <div className="col-md-4">
-        <a href="https://digimart-chi.vercel.app/" target='blank'>
-            <div className="card sampProj" id='digiMart'>
+          <a href="https://digimart-chi.vercel.app/" target='blank'>
+              <div className="card sampProj" id='digiMart'>
+                <div className="card-body">
+                  <h5 className="card-title fw-bolder">DigiMart</h5>
+                  <h6 className="card-subtitle mb-2 text-white-50 fw-lighter">A sample Digital Marketing Website</h6>
+                  <p className="card-text fw-light">Tools Used: <br /> React & TailwindCSS</p>
+                  <p className='fw-lighter'>https://digimart-chi.vercel.app/</p>
+                </div>
+              </div>
+          </a>
+
+          <a href="https://weather-neil-martin-gamboas-projects.vercel.app/" target='blank'>
+            <div className="card sampProj mt-2" id='api'>
               <div className="card-body">
-                <h5 className="card-title fw-bolder">DigiMart</h5>
-                <h6 className="card-subtitle mb-2 text-white-50 fw-lighter">A sample Digital Marketing Website</h6>
-                <p className="card-text fw-light">Tools Used: <br /> React & TailwindCSS</p>
-                <p className='fw-lighter'>https://digimart-chi.vercel.app/</p>
+                  <h5 className="card-title fw-bolder">Weather App</h5>
+                  <h6 className="card-subtitle mb-2 text-white-50 fw-lighter">A weather application wherein you can find the temperature in the city.</h6>
+                  <p className="card-text fw-light">Tools Used: <br /> React & TailwindCSS</p>
+                  <p className='fw-lighter'>https://weather-neil-martin-gamboas-projects.vercel.app/</p>
               </div>
             </div>
-        </a>
+          </a>
 
         </div>
 
