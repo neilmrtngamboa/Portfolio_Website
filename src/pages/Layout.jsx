@@ -13,15 +13,6 @@ function Layout() {
                 <Link className="navbar-brand text-white" to='/'>Neil Martin Gamboa
                     <div><h5 className="fs-6 text-secondary fw-light">Front End Developer</h5></div>
                 </Link>
-                <button className="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div className="navbar-nav mx-auto">
-                        <Link className="nav-link links" to='about'>About</Link>
-                        <Link className="nav-link links" to='contact'>Contact</Link>
-                    </div>
-                </div>
             </div>
         </nav>
 
